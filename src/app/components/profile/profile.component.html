@@ -10,12 +10,23 @@
                 <div class="col-sm-3">
                     <img src="{{profile.avatar_url}}" class="img-circle img-responsive" alt="profile image">
                 </div>
-                <div class="list">
-                    <li class="list-item" *ngIf="profile.vio">{{profile.bio}}</li>
-                    <li class="list-item" *ngIf="profile.vio">{{profile.bio}}</li>
-                    <li class="list-item" *ngIf="profile.vio">{{profile.bio}}</li>
-                    <li class="list-item" *ngIf="profile.vio">{{profile.bio}}</li>
-
+                <div class="col-sm-5">
+                    <ul class="list">
+                        <li class="list-item" *ngIf="profile.bio">{{profile.bio}}</li>
+                        <li class="list-item" *ngIf="profile.hirable">{{profile.hirable}}</li>
+                        <li class="list-item" *ngIf="profile.blog">{{profile.blog}}</li>
+                        <li class="list-item" *ngIf="profile.email">{{profile.email}}</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <div>
+                        <p>
+                            <span class="label ian-primary">{{profile.followers}}Followers</span>
+                            <span class="label ian-primary">Following {{profile.following}}</span>
+                            <span class="label ian-success">{{profile.public_gists}}Public public Gists</span>
+                            <span class="label ian-info">{{profile.public_repos}}Public Repos</span>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
