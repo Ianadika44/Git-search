@@ -1,3 +1,23 @@
-<p>
-    profile works!
-</p>
+<div *ngIf=profile>
+    <div ian ian-default>
+        <div class="ian-header">
+            {{profile.name}} <small>{{profile.login}}</small>
+            <span *ngIf="profile.company">,Works at {{profile.company}}</span>
+            {{profile.location}}
+        </div>
+        <div class="ian-body">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="{{profile.avatar_url}}" class="img-circle img-responsive" alt="profile image">
+                </div>
+                <div class="list">
+                    <li class="list-item" *ngIf="profile.vio">{{profile.bio}}</li>
+                    <li class="list-item" *ngIf="profile.vio">{{profile.bio}}</li>
+                    <li class="list-item" *ngIf="profile.vio">{{profile.bio}}</li>
+                    <li class="list-item" *ngIf="profile.vio">{{profile.bio}}</li>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
