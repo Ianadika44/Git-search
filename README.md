@@ -11,14 +11,14 @@
 - Html for the page layout.
 - css and bootstrap for the styling of the page.
 - Angular
-<!-- ## BDD
-- One adds a new quote
-- He/she can toggle to find out the quote author.
-- One can delete the quote if not liked
-- One can vote for the favourite quote or dislike.
-- one can see the dates the quotes are added and the votes each quote has
-- One can be able to see the quotes liked or votes  of each quote
-## CONTACT INFORMATION
+## BDD
+- Theres a form with a prompt of adding your github user name
+- Add the name
+- The information outlines automatically on the page
+- You can view every project on the owners github
+- You can also view the profile of the github
+- On the page there is information on the people you following,your followers and the public repos and gists
+<!-- ## CONTACT INFORMATION
 - Email:adika19ian@gmail.com.
 - Phone:0757441659.
 ## PROJECT'S LINK
@@ -32,4 +32,4 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 © 2020 GitHub, Inc.
- 
+  --> -->
