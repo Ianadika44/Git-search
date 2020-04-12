@@ -1,6 +1,8 @@
 .search-ian{
     padding-top: 50px;
     padding-bottom: 30px;
+    padding-left: 100px;
+    width: 100%;
 }
 .container-fluid{
     background-image: url(https://bit.ly/2RvDW1Q); 
@@ -9,4 +11,17 @@
     padding: 0%;
     margin: 0%;
 
+}
+h1{
+    font-style: normal;
+    font-size: 400%;
+    height: 1000%;
+    font-weight: 700;
+    color: rgb(18, 18, 27);
+    text-decoration: mediumblue;
+    text-align: center;
+}
+p{
+    font-size: 200%;
+    text-align: center;
 }

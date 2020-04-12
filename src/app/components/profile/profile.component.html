@@ -1,66 +1,67 @@
 <div class="container-fluid">
     <h1>GITHUB-FINDER APP</h1>
     <p>Get your github information and your projects!</p>
-<form action="" class="search-ian">
-    <div class="nito">
-        <input type="text" class="form-controll" placeholder="Search git user with a username" [(ngModel)]="username"
-            name="username" (keyup)="findProfile()">
-
-    </div>
-</form>
-<link href="https://fonts.googleapis.com/css?family=Pacifico|Yeon+Sung&display=swap" rel="stylesheet">
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-
-
-<div *ngIf=profile>
-    <div ian ian-default>
-        <div class="ian-header">
-            {{profile.name}} <small>{{profile.login}}</small>
-            <span *ngIf="profile.company">,Works at {{profile.company}}</span>
-            {{profile.location}}
+    <form action="" class="search-ian">
+        <div class="nito">
+            <input type="text" class="form-controll" placeholder="  Search username" [(ngModel)]="username"
+                name="username" (keyup)="findProfile()">
         </div>
-        <div class="ian-body">
-            <div class="row">
-                <div class="col-sm-3">
-                    <img src="{{profile.avatar_url}}" class="img-circle img-responsive" alt="profile image">
-                </div>
-                <div class="col-sm-5">
-                    <ul class="list">
-                        <li class="list-item" *ngIf="profile.bio">{{profile.bio}}</li>
-                        <li class="list-item" *ngIf="profile.hirable">{{profile.hirable}}</li>
-                        <li class="list-item" *ngIf="profile.blog">{{profile.blog}}</li>
-                        <li class="list-item" *ngIf="profile.email">{{profile.email}}</li>
-                    </ul>
-                </div>
-                <div class="col-sm-4">
-                    <div>
-                        <p>
-                            <span class="label ian-primary"
-                                class="btn btn-danger btn-sm">{{profile.followers}}Followers</span>
-                            <span class="label ian-primary" class="btn btn-primary btn-sm">Following
-                                {{profile.following}}</span>
-                            <span class="label ian-success"
-                                class="btn btn-success btn-sm">{{profile.public_gists}}Public Gists</span>
-                            <span class="label ian-info" class="btn btn-info btn-sm">{{profile.public_repos}}Public
-                                Repos</span>
-                        </p>
-                        <p><a href="{{profile.html_url}}" target="_blank" class="btn btn-success btn-sm">View profile on
-                                github</a></p>
-                        <div class="ian-header">
-                            <h3 class="ian-head">Repos</h3>
-                        </div>
-                        <div class="ian-body" *ngFor="let repo of repos">
+    </form>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Yeon+Sung&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <div *ngIf=profile>
+        <div ian ian-default>
+            <div class="ian-header">
+                {{profile.name}} <small>{{profile.login}}</small>
+                <span *ngIf="profile.company">,Works at {{profile.company}}</span>
+                {{profile.location}}
+            </div>
+            <div class="ian-body">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="{{profile.avatar_url}}" class="img-circle img-responsive" alt="profile image">
+                    </div>
+                    <div class="col-sm-5">
+                        <ul class="list">
+                            <li class="list-item" *ngIf="profile.bio">{{profile.bio}}</li>
+                            <li class="list-item" *ngIf="profile.hirable">{{profile.hirable}}</li>
+                            <li class="list-item" *ngIf="profile.blog">{{profile.blog}}</li>
+                            <li class="list-item" *ngIf="profile.email">{{profile.email}}</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <div>
                             <p>
-                                {{repo.name}}<a href="{{repo.html_url}}" class="btn btn-sm btn-warning pull-right">View
-                                    this
-                                    project on github</a>
+                                <span class="label ian-primary"
+                                    class="btn btn-danger btn-sm">{{profile.followers}}Followers</span>
+                                <span class="label ian-primary" class="btn btn-primary btn-sm">Following
+                                    {{profile.following}}</span>
+                                <span class="label ian-success"
+                                    class="btn btn-success btn-sm">{{profile.public_gists}}Public Gists</span>
+                                <span class="label ian-info" class="btn btn-info btn-sm">{{profile.public_repos}}Public
+                                    Repos</span>
                             </p>
-                            <p class="clearfix"> {{repo.description}}</p>
+                            <p><a href="{{profile.html_url}}" target="_blank" class="btn btn-success btn-sm">View
+                                    profile on
+                                    github</a></p>
+                            <div class="ian-header">
+                                <h3 class="ian-head">Repos</h3>
+                            </div>
+                            <div class="ian-body" *ngFor="let repo of repos">
+                                <p>
+                                    {{repo.name}}<a href="{{repo.html_url}}"
+                                        class="btn btn-sm btn-warning pull-right">View
+                                        this
+                                        project on github</a>
+                                </p>
+                                <p class="clearfix"> {{repo.description}}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </div>
