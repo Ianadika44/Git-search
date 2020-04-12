@@ -23,20 +23,26 @@
                 <div class="col-sm-4">
                     <div>
                         <p>
-                            <span class="label ian-primary" class="btn btn-danger btn-sm">{{profile.followers}}Followers</span>
-                            <span class="label ian-primary" class="btn btn-primary btn-sm">Following {{profile.following}}</span>                            
-                            <span class="label ian-success" class="btn btn-success btn-sm">{{profile.public_gists}}Public Gists</span>
-                            <span class="label ian-info" class="btn btn-info btn-sm">{{profile.public_repos}}Public Repos</span>
+                            <span class="label ian-primary"
+                                class="btn btn-danger btn-sm">{{profile.followers}}Followers</span>
+                            <span class="label ian-primary" class="btn btn-primary btn-sm">Following
+                                {{profile.following}}</span>
+                            <span class="label ian-success"
+                                class="btn btn-success btn-sm">{{profile.public_gists}}Public Gists</span>
+                            <span class="label ian-info" class="btn btn-info btn-sm">{{profile.public_repos}}Public
+                                Repos</span>
                         </p>
-                        <p><a href ="{{profile.html_url}}" target="_blank" class="btn btn-success btn-sm">View profile on github</a></p>
+                        <p><a href="{{profile.html_url}}" target="_blank" class="btn btn-success btn-sm">View profile on
+                                github</a></p>
                         <div class="ian-header">
                             <h3 class="ian-head">Repos</h3>
                         </div>
                         <div class="ian-body" *ngFor="let repo of repos">
                             <p>
-                                {{repo.name}}<a href="{{repo.html_url}}" class="btn btn-sm btn-warning">View this project on github</a>
-
+                                {{repo.name}}<a href="{{repo.html_url}}" class="btn btn-sm btn-warning pull-right">View this
+                                    project on github</a>
                             </p>
+                            <p class="clearfix"> {{repo.description}}</p>
                         </div>
                     </div>
                 </div>
