@@ -1,7 +1,7 @@
-<form action=""  class="search-ian">
+<form action="" class="search-ian">
     <div class="nito">
-        <input type="text" class="form-controll" placeholder="Search git user with a username"
-            [(ngModel)]="username" name="username" (keyup)="findProfile()">
+        <input type="text" class="form-controll" placeholder="Search git user with a username" [(ngModel)]="username"
+            name="username" (keyup)="findProfile()">
 
     </div>
 </form>
@@ -48,7 +48,8 @@
                         </div>
                         <div class="ian-body" *ngFor="let repo of repos">
                             <p>
-                                {{repo.name}}<a href="{{repo.html_url}}" class="btn btn-sm btn-warning pull-right">View this
+                                {{repo.name}}<a href="{{repo.html_url}}" class="btn btn-sm btn-warning pull-right">View
+                                    this
                                     project on github</a>
                             </p>
                             <p class="clearfix"> {{repo.description}}</p>
