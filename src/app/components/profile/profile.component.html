@@ -1,12 +1,12 @@
-<link href="https://fonts.googleapis.com/css?family=Pacifico|Yeon+Sung&display=swap" rel="stylesheet">
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-<form action=""  class="search">
-    <div class="user">
-        <input type="text" class="form-controll" placeholder="Search a github username"[(
-            ngModel)]="username" name="username" (keyup)="findProfile()">
+<form action=""  class="search-ian">
+    <div class="nito">
+        <input type="text" class="form-controll" placeholder="Search git user with a username"
+            [(ngModel)]="username" name="username" (keyup)="findProfile()">
 
     </div>
 </form>
+<link href="https://fonts.googleapis.com/css?family=Pacifico|Yeon+Sung&display=swap" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
 
 
 <div *ngIf=profile>
