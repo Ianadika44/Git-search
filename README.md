@@ -11,6 +11,7 @@
 - Html for the page layout.
 - css and bootstrap for the styling of the page.
 - Angular
+
 ## BDD
 - Theres a form with a prompt of adding your github user name
 - Add the name
@@ -18,11 +19,14 @@
 - You can view every project on the owners github
 - You can also view the profile of the github
 - On the page there is information on the people you following,your followers and the public repos and gists
+
 ## CONTACT INFORMATION
 - Email:adika19ian@gmail.com.
 - Phone:0757441659.
+
 ## PROJECT'S LINK
-- https://eager-torvalds-1bdb52.netlify.com/
+- https://gifted-sinoussi-cf95c6.netlify.com
+
 ## LICENSE AND COPYRIGHT INFORMATION
 - MIT License Copyright(2020) Ian Adika
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
