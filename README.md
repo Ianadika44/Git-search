@@ -18,7 +18,7 @@
 - You can view every project on the owners github
 - You can also view the profile of the github
 - On the page there is information on the people you following,your followers and the public repos and gists
-<!-- ## CONTACT INFORMATION
+## CONTACT INFORMATION
 - Email:adika19ian@gmail.com.
 - Phone:0757441659.
 ## PROJECT'S LINK
@@ -32,4 +32,4 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 © 2020 GitHub, Inc.
-  --> -->
+  
