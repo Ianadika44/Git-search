@@ -25,7 +25,7 @@
 - Phone:0757441659.
 
 ## PROJECT'S LINK
-- https://gifted-sinoussi-cf95c6.netlify.com
+- https://jovial-jennings-d79743.netlify.com
 
 ## LICENSE AND COPYRIGHT INFORMATION
 - MIT License Copyright(2020) Ian Adika
