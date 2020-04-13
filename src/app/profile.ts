@@ -1,3 +1,6 @@
 export class Profile {
-    name:string;
+    showDate: boolean;
+    constructor(name: string, completeDate: Date){
+        this.showDate=true
+    }
 }
